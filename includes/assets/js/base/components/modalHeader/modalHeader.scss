@@ -1,0 +1,48 @@
+.casted-modal-header {
+	position: relative;
+	padding: 1.25rem 1.5rem;
+	border-bottom: 1px solid #eceff1;
+
+	.casted-modal-header-actions {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+
+		.casted-back-button {
+			display: flex;
+			align-items: center;
+			margin-bottom: 1.5rem;
+			font-size: 1rem;
+			font-weight: 600;
+			line-height: 0.875rem;
+			letter-spacing: 0;
+			text-transform: uppercase;
+			cursor: pointer;
+		}
+
+		.casted-modal-close {
+			font-size: 1rem;
+			cursor: pointer;
+		}
+
+		&.casted-justify-space {
+			justify-content: space-between;
+		}
+	}
+
+	h3 {
+		margin: 0 0 0.5rem;
+		font-size: 1.25rem;
+		font-weight: bold;
+		line-height: 1.125rem;
+		letter-spacing: 0;
+	}
+
+	h4 {
+		margin: 0;
+		font-size: 1rem;
+		font-weight: normal;
+		line-height: 1.375rem;
+		letter-spacing: 0;
+	}
+}

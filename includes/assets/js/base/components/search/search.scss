@@ -1,0 +1,18 @@
+.casted-search-input {
+	margin-bottom: 1rem;
+
+	.components-base-control__field {
+		margin: 0;
+
+		.components-text-control__input {
+			padding: 0.4375rem 0 0.5rem 0.625rem;
+			border: 1px solid rgba(0, 0, 0, 0.12);
+			border-radius: 3px;
+			color: $color-gray-1;
+			font-family: 'Open Sans';
+			font-size: 1rem;
+			letter-spacing: 0;
+			line-height: 1.375rem;
+		}
+	}
+}

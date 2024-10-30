@@ -1,0 +1,7 @@
+{
+	"name": "casted/casted",
+	"version": "1.0.0",
+	"require": {
+		"vlucas/phpdotenv": "*"
+	}
+}

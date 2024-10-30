@@ -1,0 +1,33 @@
+.casted-grid-card {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 20%;
+	margin: 0 0.75rem 1.5rem;
+	max-width: 151px;
+	cursor: pointer;
+
+	&.casted-grid-card-filler {
+		cursor: default;
+	}
+
+	img {
+		width: 100%;
+		height: 151px;
+		margin-bottom: 0.5rem;
+		border: 2px solid #fff;
+		border-radius: 2px;
+
+		&:hover {
+			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		}
+	}
+
+	h5 {
+		margin: 0;
+		font-size: 1rem;
+		font-weight: 600;
+		letter-spacing: 0;
+		line-height: 1.375rem;
+		text-align: center;
+	}
+}

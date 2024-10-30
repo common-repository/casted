@@ -1,0 +1,9 @@
+.casted-grid {
+	max-height: 430px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 -1.5rem;
+	overflow-y: auto;
+}

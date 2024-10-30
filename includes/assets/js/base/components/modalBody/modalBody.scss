@@ -1,0 +1,11 @@
+.casted-modal-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem 1.5rem 1.5rem;
+	background-color: $color-off-white-1;
+
+	& > * {
+		width: 100%;
+	}
+}

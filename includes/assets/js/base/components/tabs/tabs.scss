@@ -1,0 +1,32 @@
+.casted-tabs-wrapper {
+	display: flex;
+	margin-bottom: 0.875rem;
+
+	.casted-tab {
+		padding: 0.5rem 1rem;
+		cursor: pointer;
+
+		h5 {
+			margin: 0;
+			font-size: 0.875rem;
+			font-weight: bold;
+			letter-spacing: 0.0825rem;
+			line-height: 1.1875rem;
+			text-transform: uppercase;
+			color: rgba(3, 28, 51, 0.65);
+		}
+
+		.casted-tab-info {
+			position: absolute;
+			visibility: hidden;
+		}
+
+		&.casted-tab-active {
+			border-bottom: 3px solid $color-gray-3;
+
+			h5 {
+				color: rgba(3, 28, 51, 1);
+			}
+		}
+	}
+}

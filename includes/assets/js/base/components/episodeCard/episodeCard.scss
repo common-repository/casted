@@ -1,0 +1,39 @@
+.casted-episode-content {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	.casted-episode-img {
+		min-height: 70px;
+		min-width: 70px;
+		height: 70px;
+		width: 70px;
+		margin: 0.25em;
+		box-sizing: border-box;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+	}
+	.casted-episode-info {
+		padding-left: 1rem;
+		.casted-episode-title {
+			max-width: 400px;
+			margin: 0 0 0.25rem;
+			overflow: hidden;
+			white-space: pre;
+			text-overflow: ellipsis;
+			font-size: 1rem;
+			line-height: 1.3125rem;
+			font-weight: normal;
+			color: $color-gray-3;
+			letter-spacing: 0;
+		}
+		.casted-episode-details {
+			opacity: 0.52;
+			font-size: 0.625rem;
+			font-weight: bold;
+			letter-spacing: 0.07125rem;
+			line-height: 0.8125rem;
+			text-align: justify;
+			text-transform: uppercase;
+		}
+	}
+}

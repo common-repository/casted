@@ -1,0 +1,15 @@
+.casted-modal {
+	max-width: 730px;
+	width: 730px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	font-family: 'Open Sans';
+
+	.components-modal__header {
+		display: none;
+	}
+
+	.components-modal__content {
+		padding: 0;
+	}
+}

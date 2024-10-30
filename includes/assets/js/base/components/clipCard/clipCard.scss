@@ -1,0 +1,47 @@
+.casted-clip-content {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	padding: 0.75rem 0 0.75rem 1.25rem;
+
+	.casted-clip-img {
+		display: flex;
+		flex-shrink: 0;
+		justify-content: center;
+		align-items: center;
+		width: 1.8125rem;
+		height: 1.8125rem;
+		box-sizing: border-box;
+		border: 2px solid #ffffff;
+		border-radius: 1.25rem;
+		background-color: $color-gray-2;
+		cursor: pointer;
+
+		.casted-clip-play {
+			color: #fff;
+		}
+	}
+
+	.casted-clip-info {
+		padding-left: 1rem;
+
+		.casted-clip-title {
+			font-size: 1rem;
+			line-height: 1.3125rem;
+			margin: 0;
+			font-weight: normal;
+			color: $color-gray-3;
+			letter-spacing: 0;
+		}
+
+		.casted-clip-details {
+			opacity: 0.52;
+			font-size: 0.625rem;
+			padding-top: 0.25rem;
+			font-weight: bold;
+			letter-spacing: 0.07125rem;
+			line-height: 0.8125rem;
+			text-align: justify;
+		}
+	}
+}
